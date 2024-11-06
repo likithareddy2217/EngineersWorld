@@ -1,5 +1,5 @@
 
-import NavigationComponent from "./components/navigationbar/Navigation"
+import NavigationComponent from "./components/navigationbar/navigation.js"
 
 function App() {
   return (
