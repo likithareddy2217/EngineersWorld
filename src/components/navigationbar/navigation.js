@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "./Navigation.css";
+import "./navigation.css";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,6 +29,7 @@ function Header() {
         <button className='nav-btn'>Contact</button>
       </nav>
     </header>
+    
   );
 }
 
