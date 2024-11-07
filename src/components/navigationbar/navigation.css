@@ -8,17 +8,14 @@
 }
 
 header {
-<<<<<<< HEAD
   background: linear-gradient(45deg, #314858, #083b5e);
-=======
+
   background: linear-gradient(45deg, #2c3e50, #34495e);
->>>>>>> 2d6720ad01166adda161dab147a40f3a70f6ddd7
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-<<<<<<< HEAD
   transition: background 0.3s ease, padding 0.3s ease;
 }
 
@@ -27,20 +24,14 @@ header.scrolled {
   padding: 10px 20px;
 }
 
-=======
 }
 
->>>>>>> 2d6720ad01166adda161dab147a40f3a70f6ddd7
 .logo-div {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2d6720ad01166adda161dab147a40f3a70f6ddd7
 .logo-div h1 {
   font-size: 28px;
   background: linear-gradient(to right, #ff7e5f, #feb47b);
@@ -66,11 +57,10 @@ header.scrolled {
   transition: color 0.3s ease;
 }
 
-<<<<<<< HEAD
 .nav a:hover {
   color: #feb47b;
   transform: scale(1.1);
-=======
+
 .contactBtn{ 
   border-radius: 20px;
   padding: 11px;
@@ -82,7 +72,6 @@ header.scrolled {
 .nav a:hover {
   color: #feb47b;
   transform:scale(1.1);
->>>>>>> 2d6720ad01166adda161dab147a40f3a70f6ddd7
 }
 
 .nav-btn {
@@ -110,7 +99,6 @@ header.scrolled {
   box-shadow: 0 2px 5px rgba(10, 10, 10, 0.4);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -132,8 +120,7 @@ header.scrolled {
     width: 100%;
     margin-top: 15px;
   }
-<<<<<<< HEAD
+
 }
-=======
 }
->>>>>>> 2d6720ad01166adda161dab147a40f3a70f6ddd7
+
