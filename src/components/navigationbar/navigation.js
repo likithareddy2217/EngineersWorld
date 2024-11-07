@@ -29,7 +29,6 @@ function Header() {
         <button className='nav-btn'>Contact</button>
       </nav>
     </header>
-    
   );
 }
 

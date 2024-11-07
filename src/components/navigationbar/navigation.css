@@ -9,10 +9,11 @@
 }
 
 header {
+
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(70deg, #224465, #0b3c5e);
+  background: linear-gradient(70deg, #0c1c2d, #011625);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +26,8 @@ header.scrolled {
   top: 0;
   z-index: 1000;
   box-shadow: 3px 3px 6px rgb(3, 18, 81);
+  background: linear-gradient(45deg, #283c4e, #052f46);
+  padding: 10px 20px;
 }
 
 .logo-div {
@@ -37,7 +40,7 @@ header.scrolled {
   font-size: 28px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background: linear-gradient(70deg, #985a13, #964304);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -66,7 +69,7 @@ header.scrolled {
 }
 
 .nav-btn {
-  background-color: #b98f1c;
+  background-color: #e46a06;
   padding: 12px 24px;
   border: none;
   border-radius: 25px;
@@ -80,7 +83,7 @@ header.scrolled {
 }
 
 .nav-btn:hover {
-  background-color: #a6791a;
+  background-color: #964304;
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(10, 10, 10, 0.3);
 }
@@ -90,7 +93,6 @@ header.scrolled {
   box-shadow: 0 2px 5px rgba(10, 10, 10, 0.4);
 }
 
-/* Mobile view (max-width: 768px) */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -117,11 +119,9 @@ header.scrolled {
 
   .nav a {
     font-size: 16px;
-    /* Slightly smaller font size for mobile */
   }
 }
 
-/* Tablet and larger screens (min-width: 769px) */
 @media (min-width: 769px) {
   header {
     padding: 15px 30px 15px 60px;

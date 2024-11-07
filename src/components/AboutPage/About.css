@@ -1,5 +1,5 @@
 .section {
-  padding: 90px;
+  padding: 60px 120px;
   display: inline-block;
 }
 
@@ -15,7 +15,7 @@
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  background: linear-gradient(70deg, #985a13, #964304);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -38,10 +38,10 @@
   content: '';
   position: absolute;
   bottom: 0;
-  left: -20px;
-  width: 12px;
-  height: 12px;
-  background-color: #ff7e5f;
+  left: -25px;
+  width: 16px;
+  height: 16px;
+  background-color: #964304;
   border-radius: 50%;
 }
 
