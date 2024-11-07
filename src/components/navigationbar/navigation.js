@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import "./navigation.css";
 
@@ -15,13 +14,6 @@ function Header() {
 
   return (
     <header className={isScrolled ? 'scrolled' : ''}>
-
-import React from 'react';
-import "./navigation.css";
-
-function Header() {
-  return (
-    <header>
       <div className='logo-div'>
         <img src="./images/logo.jpg" alt="Logo" height={40} width={40} />
         <h1>ENGINEER'S WORLD</h1>
@@ -37,7 +29,6 @@ function Header() {
         <button className='nav-btn'>Contact</button>
       </nav>
     </header>
-
     
   );
 }

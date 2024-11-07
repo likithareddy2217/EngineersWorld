@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 * {
   padding: 0;
@@ -8,22 +9,22 @@
 }
 
 header {
-  background: linear-gradient(45deg, #314858, #083b5e);
-
-  background: linear-gradient(45deg, #2c3e50, #34495e);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(70deg, #224465, #0b3c5e);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 15px 30px 15px 60px;
   transition: background 0.3s ease, padding 0.3s ease;
 }
 
 header.scrolled {
-  background: linear-gradient(45deg, #283c4e, #052f46);
-  padding: 10px 20px;
-}
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 3px 3px 6px rgb(3, 18, 81);
 }
 
 .logo-div {
@@ -34,6 +35,8 @@ header.scrolled {
 
 .logo-div h1 {
   font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   background: linear-gradient(to right, #ff7e5f, #feb47b);
   -webkit-background-clip: text;
   color: transparent;
@@ -54,24 +57,12 @@ header.scrolled {
   text-decoration: none;
   font-size: 18px;
   color: #fff;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav a:hover {
   color: #feb47b;
   transform: scale(1.1);
-
-.contactBtn{ 
-  border-radius: 20px;
-  padding: 11px;
-  color: white;
-  background-color: orange;
-  border: none;
-  box-shadow: 0px 10px 20px 2px rgba(243, 178, 16, 0.8);
-}
-.nav a:hover {
-  color: #feb47b;
-  transform:scale(1.1);
 }
 
 .nav-btn {
@@ -99,10 +90,12 @@ header.scrolled {
   box-shadow: 0 2px 5px rgba(10, 10, 10, 0.4);
 }
 
+/* Mobile view (max-width: 768px) */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 15px;
+    justify-content: center;
   }
 
   .logo-div {
@@ -119,8 +112,39 @@ header.scrolled {
   .nav-btn {
     width: 100%;
     margin-top: 15px;
+    padding: 14px;
   }
 
-}
+  .nav a {
+    font-size: 16px;
+    /* Slightly smaller font size for mobile */
+  }
 }
 
+/* Tablet and larger screens (min-width: 769px) */
+@media (min-width: 769px) {
+  header {
+    padding: 15px 30px 15px 60px;
+    flex-direction: row;
+  }
+
+  .logo-div {
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+
+  .nav .links {
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 20px;
+  }
+
+  .nav-btn {
+    width: auto;
+    margin-top: 0;
+  }
+
+  .nav a {
+    font-size: 18px;
+  }
+}
