@@ -14,25 +14,26 @@
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  left: 0;
-  background: linear-gradient(70deg, #985a13, #964304);
+  letter-spacing: 5px;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b, #ff4081);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3), 0 0 25px rgba(255, 64, 129, 0.5);
   padding: 20px 0;
-  transition: text-shadow 0.3s ease;
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .about-heading:hover {
-  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  text-shadow: 7px 7px 18px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 64, 129, 0.8);
+  transform: translateY(-5px);
 }
 
 .full-stop {
   font-size: 30px;
   position: relative;
   display: inline-block;
+  color: #ff4081;
 }
 
 .full-stop::after {
@@ -42,10 +43,21 @@
   left: -25px;
   width: 16px;
   height: 16px;
-  background-color: #964304;
+  background-color: #ff4081;
   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 64, 129, 0.7);
+  animation: bounce 0.6s ease-in-out infinite alternate;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(8px);
+  }
+}
 .about-content {
   font-size: 18px;
   line-height: 1.8;
