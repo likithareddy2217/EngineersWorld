@@ -67,31 +67,6 @@ header.scrolled {
   transform: scale(1.1);
 }
 
-.nav-btn {
-  background-color: #e46a06;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 16px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.2);
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-btn:hover {
-  background-color: #964304;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(10, 10, 10, 0.3);
-}
-
-.nav-btn:active {
-  transform: translateY(2px);
-  box-shadow: 0 2px 5px rgba(10, 10, 10, 0.4);
-}
-
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -108,12 +83,6 @@ header.scrolled {
     flex-direction: column;
     gap: 15px;
     margin-right: 0;
-  }
-
-  .nav-btn {
-    width: 100%;
-    margin-top: 15px;
-    padding: 14px;
   }
 
   .nav a {
