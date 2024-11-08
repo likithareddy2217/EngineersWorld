@@ -21,11 +21,10 @@ function Header() {
       <nav className='nav'>
         <div className='links'>
           <a href="#">Home</a>
-          <a href="/components/AboutPage/About.js">About</a>
-          <a href="#">Leadership</a>
+          <a href="/components/AboutPage/About.js">About Us</a>
           <a href="#">Hire Us</a>
+          <a href='#'>Contact Us</a>
         </div>
-        <button className='nav-btn' onClick={window.location.href=""}>Contact</button>
       </nav>
     </header>
   );
