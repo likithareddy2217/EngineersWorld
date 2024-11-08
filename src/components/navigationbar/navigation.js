@@ -25,7 +25,7 @@ function Header() {
           <a href="#">Leadership</a>
           <a href="#">Hire Us</a>
         </div>
-        <button className='nav-btn' onClick={window.location.href=""}>Contact</button>
+        <button className='nav-btn' >Contact</button>
       </nav>
     </header>
   );
