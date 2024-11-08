@@ -6,7 +6,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      setIsScrolled(window.scrollY > 80);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -21,7 +21,7 @@ function Header() {
       <nav className='nav'>
         <div className='links'>
           <a href="#">Home</a>
-          <a href="#">About</a>
+          <a href="/components/AboutPage/About.js">About</a>
           <a href="#">Experience</a>
           <a href="#">Leadership</a>
           <a href="#">Hire Us</a>

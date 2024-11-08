@@ -27,7 +27,6 @@ header.scrolled {
   z-index: 1000;
   box-shadow: 3px 3px 6px rgb(3, 18, 81);
   background: linear-gradient(45deg, #283c4e, #052f46);
-  padding: 10px 20px;
 }
 
 .logo-div {

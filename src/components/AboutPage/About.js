@@ -13,6 +13,34 @@ function About() {
       <div className="about-content">
         <p>Engineers World, led by Mr Akshay Kumar, excels in creating user-friendly websites and innovative cybersecurity solutions. Our flagship product, PhishShield, uses advanced machine learning to protect against phishing attacks. We are dedicated to education, offering internships and online learning to nurture future tech leaders. Our team provides top-notch project and assignment solutions for universities and educational institutions, ensuring academic success.</p>
       </div>
+
+      <div className="content-div">
+        <div className="card">
+          <img src="/images/webDeveloper.png" alt="" />
+          <h2>Web</h2>
+          <h2>Developer</h2>
+        </div>
+        <div className="card">
+          <img src="/images/reactDeveloper.png" alt="" />
+          <h2>React Native Developer</h2>
+        </div>
+        <div className="card">
+          <img src="/images/nurturingLeaders.png" alt="" />
+          <h2>Nurturing Future Tech Leaders</h2>
+        </div>
+        <div className="card">
+          <img src="/images/PhishShield.png" alt="" />
+          <h2>Phish Shield</h2>
+        </div>
+        <div className="card">
+          <img src="/images/AIML.png" alt="" />
+          <h2>AI ML</h2>
+        </div>
+        <div className="card">
+          <img src="/images/CyberSecurity.jpg" alt="" />
+          <h2>cyber security</h2>
+        </div>
+      </div>
     </section>
   );
 }
