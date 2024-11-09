@@ -8,7 +8,9 @@ body {
   background: linear-gradient(70deg, #0c1c2d, #011625);
   transition: background 0.3s ease;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
