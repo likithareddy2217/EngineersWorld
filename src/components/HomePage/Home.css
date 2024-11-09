@@ -13,9 +13,25 @@
     /* bottom: 0; */
 }
 
-.headtext{ 
-    color: #f3b20b;
-    font-size: 60px;
+.headtext {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #00bcd4, #0097a7, #004c6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+        3px 3px 5px rgba(0, 0, 0, 0.2),
+        -2px -2px 6px rgba(255, 255, 255, 0.3),
+        4px 4px 12px rgba(0, 0, 0, 0.5);
+    transform: skew(-5deg);
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 auto;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-align: center;
 }
 
 .intro{ 
