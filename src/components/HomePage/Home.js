@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className='Homepage'>
             <div className='intro'>
-                <LetterPullup className={"headtext"} words={"Hi , We Are Engineers Wolrd"} delay={0.05} />
+                <LetterPullup className={"headtext"} words={"Hi , We Are Engineers World"} delay={0.05} />
                 <GradualSpacing
                     className="tagline"
                     text="BELIEVE IN TECHNOLOGY TO CREATE NEW AND FUTURISTIC SOLUTIONS"
