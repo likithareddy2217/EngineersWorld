@@ -9,7 +9,6 @@
 }
 
 header {
-
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -17,22 +16,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px 15px 60px;
+  padding: 15px 40px;
   transition: background 0.3s ease, padding 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header.scrolled {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 3px 3px 6px rgb(3, 18, 81);
   background: linear-gradient(45deg, #283c4e, #052f46);
+  box-shadow: 0 4px 10px rgba(3, 18, 81, 0.3);
+  padding: 10px 30px;
 }
 
 .logo-div {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .logo-div h1 {
@@ -52,26 +50,44 @@ header.scrolled {
 .nav .links {
   display: flex;
   gap: 30px;
-  margin-right: 20px;
 }
 
 .nav a {
+  position: relative;
   text-decoration: none;
   font-size: 18px;
   color: #fff;
-  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+  overflow: hidden;
+}
+
+.nav a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #feb47b;
+  transform: scaleX(0);
+  transition: transform 0.3s ease, top 0.3s ease;
+}
+
+.nav a:hover::before {
+  top: 90%;
+  transform: scaleX(1);
 }
 
 .nav a:hover {
   color: #feb47b;
-  transform: scale(1.1);
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    padding: 20px 15px;
-    justify-content: center;
+    padding: 20px;
   }
 
   .logo-div {
@@ -87,13 +103,14 @@ header.scrolled {
 
   .nav a {
     font-size: 16px;
+    padding: 6px 8px;
   }
 }
 
 @media (min-width: 769px) {
   header {
-    padding: 15px 30px 15px 60px;
     flex-direction: row;
+    padding: 15px 40px;
   }
 
   .logo-div {
@@ -104,15 +121,5 @@ header.scrolled {
   .nav .links {
     flex-direction: row;
     gap: 30px;
-    margin-right: 20px;
-  }
-
-  .nav-btn {
-    width: auto;
-    margin-top: 0;
-  }
-
-  .nav a {
-    font-size: 18px;
   }
 }
