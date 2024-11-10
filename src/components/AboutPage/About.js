@@ -16,24 +16,24 @@ function About() {
 
       <div className="content-div">
         <div className="card">
-          <img src="/images/webDeveloper.png" alt="" />
+          <img src="/images/webDevelopment.jpg" alt="" />
           <h2>Web</h2>
           <h2>Developer</h2>
         </div>
         <div className="card">
-          <img src="/images/reactDeveloper.png" alt="" />
+          <img src="/images/reactNativeDevelopment.jpg" alt="" />
           <h2>React Native Developer</h2>
         </div>
         <div className="card">
-          <img src="/images/nurturingLeaders.png" alt="" />
+          <img src="/images/futureTech.jpg" alt="" />
           <h2>Nurturing Future Tech Leaders</h2>
         </div>
         <div className="card">
-          <img src="/images/PhishShield.png" alt="" />
+          <img src="/images/PhishShield.jpg" alt="" />
           <h2>Phish Shield</h2>
         </div>
         <div className="card">
-          <img src="/images/AIML.png" alt="" />
+          <img src="/images/AIML.jpg" alt="" />
           <h2>AI ML</h2>
         </div>
         <div className="card">
