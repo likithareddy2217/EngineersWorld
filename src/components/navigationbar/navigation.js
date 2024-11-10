@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className={isScrolled ? 'scrolled' : ''}>
       <div className='logo-div'>
-        <img src="/images/logo.jpg" alt="Logo" height={40} width={40} />
+        <img src="/images/EWlogo.jpg" alt="Logo" height={40} width={40} />
         <h1>ENGINEER'S WORLD</h1>
       </div>
       <nav className='nav'>
