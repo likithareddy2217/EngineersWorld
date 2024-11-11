@@ -3,7 +3,7 @@ import NavigationComponent from "./components/navigationbar/navigation";
 import AboutComponent from "./components/AboutPage/About";
 import HireComponent from "./components/HirePage/Hire"
 import Home from "./components/HomePage/Home";
-
+import Leadership from "./components/HirePage/Leadership";
 function App() {
   
   return (
@@ -13,6 +13,7 @@ function App() {
       {/* <p>hello </p> */}
       <AboutComponent />
       <HireComponent />
+      <Leadership />
     </div>
   );
 }

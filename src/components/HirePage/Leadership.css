@@ -1,0 +1,48 @@
+section {
+  margin: 0;
+  padding: 60px 90px;
+  color: #fff;
+}
+.leadership-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+
+}
+.leadership-heading{
+  font-size: 60px;
+  font-weight: 900;
+  margin: 60px;
+}
+.leadership-card {
+  width: 350px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leadership-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 6px 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.leadership-card h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+.leadership-card img{
+  height: 280px;
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.leadership-card p {
+  font-size:1rem;
+  color: #ddd;
+}
+
