@@ -3,10 +3,33 @@ section {
   padding: 60px 90px;
   color: #fff;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .leadership-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
 
+.leadership-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.leadership-card.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .leadership-heading{
   font-size: 60px;

@@ -1,7 +1,26 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./Leadership.css";
 function Leadership(){
+  useEffect(() => {
+    const cards = document.querySelectorAll(".leadership-card");
 
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          } else {
+            entry.target.classList.remove("visible"); 
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    cards.forEach((card) => observer.observe(card));
+
+    return () => observer.disconnect();
+  }, []);
   return (
     <section className="leadership">
       <h1 className="leadership-heading">Our Leadership.</h1>
