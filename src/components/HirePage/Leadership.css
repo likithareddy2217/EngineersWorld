@@ -38,19 +38,21 @@ section {
 }
 .leadership-card {
   width: 380px;
-  /* margin: 15px; */
+  margin: 15px;
   padding: 20px;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
+  background:  #031e33;
   color: #fff;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 
 .leadership-card:hover {
-  transform: translateY(-10px);
-  background: linear-gradient(135deg , );
-  box-shadow: 6px 12px 25px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1); 
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3); 
+  background: linear-gradient(135deg, #03131f, #0066cc); 
 }
 
 .leadership-card h2 {

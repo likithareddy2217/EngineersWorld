@@ -78,6 +78,7 @@ function Hire(){
         </div>
       </div>
     </section>
+    
   )
 }
 export default Hire;
