@@ -22,7 +22,7 @@ header {
 }
 
 header.scrolled {
-  background: linear-gradient(45deg, #283c4e, #052f46);
+  background: #090325;
   box-shadow: 0 4px 10px rgba(3, 18, 81, 0.3);
   padding: 10px 30px;
 }
@@ -60,6 +60,7 @@ header.scrolled {
   padding: 8px 12px;
   transition: color 0.3s ease;
   overflow: hidden;
+  opacity: 0.8;
 }
 
 .nav a::before {

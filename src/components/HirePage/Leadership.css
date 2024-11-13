@@ -3,10 +3,33 @@ section {
   padding: 60px 90px;
   color: #fff;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .leadership-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
 
+.leadership-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.leadership-card.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .leadership-heading{
   font-size: 60px;
@@ -14,19 +37,22 @@ section {
   margin: 60px;
 }
 .leadership-card {
-  width: 350px;
+  width: 380px;
   margin: 15px;
   padding: 20px;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
+  background:  #031e33;
   color: #fff;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 
 .leadership-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 6px 12px 25px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1); 
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3); 
+  background: linear-gradient(135deg, #03131f, #0066cc); 
 }
 
 .leadership-card h2 {
@@ -45,4 +71,3 @@ section {
   font-size:1rem;
   color: #ddd;
 }
-
