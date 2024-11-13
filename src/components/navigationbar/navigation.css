@@ -12,7 +12,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(70deg, #0c1c2d, #011625);
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
