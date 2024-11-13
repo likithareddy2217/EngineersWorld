@@ -44,6 +44,17 @@
     align-items: center;
 }
 
-.tagline{ 
-    color: white;
+.tagline {
+    font-size: 1.3rem;
+    font-weight: 500;
+    background: linear-gradient(135deg, #00e5ff, #7b61ff, #ff61d9, #ff8c42);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    line-height: 1.5;
+    margin-top: 1rem;
+    text-align: center;
+    animation: fadeIn 2s ease forwards;
+    opacity:0;
 }
