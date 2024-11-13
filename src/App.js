@@ -4,6 +4,7 @@ import AboutComponent from "./components/AboutPage/About";
 import HireComponent from "./components/HirePage/Hire"
 import Home from "./components/HomePage/Home";
 import Leadership from "./components/HirePage/Leadership";
+import Particles from "./magicui/components/ui/particles";
 function App() {
   
   return (
@@ -14,6 +15,13 @@ function App() {
       <AboutComponent />
       <HireComponent />
       <Leadership />
+      <Particles
+                    className="fixed inset-0 particles"
+                    quantity={500}
+                    ease={80}
+                    color={"#FFFFFF"}
+                    refresh
+                />
     </div>
   );
 }

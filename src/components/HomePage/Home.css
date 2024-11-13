@@ -34,6 +34,23 @@
     text-align: center;
 }
 
+.particles{ 
+    background: transparent !important;
+}
+
+.socialLinks{ 
+    display: flex;
+    margin-top: 450px;
+    margin-left: 104px;
+}
+
+.socialLinks img{ 
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    
+}
+
 .intro{ 
     position: absolute;
     top: 70px;
