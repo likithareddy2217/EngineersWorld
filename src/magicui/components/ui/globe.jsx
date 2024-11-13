@@ -15,12 +15,10 @@ const GLOBE_CONFIG = {
   dark: 0,
   diffuse: 0.4,
   mapSamples: 16000,
-mapBrightness: 1.2,
-baseColor: [0 / 255, 102 / 255, 204 / 255],       // A medium blue for the base color
-markerColor: [251 / 255, 100 / 255, 21 / 255],    // Orange marker color
-glowColor: [0 / 255, 51 / 255, 153 / 255],       // Bright sky blue glow color
-globeColor: [0 / 255, 51 / 255, 153 / 255],       // Same medium blue for globe
-
+  mapBrightness: 1.2,
+  baseColor: [1, 1, 1],
+  markerColor: [251 / 255, 100 / 255, 21 / 255],
+  glowColor: [1, 1, 1],
   markers: [
     { location: [14.5995, 120.9842], size: 0.03 },
     { location: [19.076, 72.8777], size: 0.1 },
