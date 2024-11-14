@@ -22,6 +22,9 @@ function Hire() {
       <h1 className="hirepage-title">Empowering Academic Success and Online Safety Through Innovation</h1>
       <div className="hirepage-container">
         <div className="align-right">
+          <div>
+            <img src="/images/HirePage/mission.jpg" alt="" />
+          </div>
           <div className="hirepage-feature">
             <h2>MISSION</h2>
             <p>to give our best and give the best product</p>
@@ -42,6 +45,7 @@ function Hire() {
           </div>
         </div>
         <div className="align-left">
+          
           <div className="hirepage-feature">
             <h2>VISION</h2>
             <p>At Engineers World, our vision is to be the architects of a digital ecosystem.</p>
@@ -60,8 +64,14 @@ function Hire() {
               </li>
             </ul>
           </div>
+          <div>
+            <img src="/images/HirePage/vision.jpg" alt="" />
+          </div>
         </div>
         <div className="align-right">
+          <div>
+            <img src="/images/HirePage/whychooseus.jpg" alt="" />
+          </div>
           <div className="hirepage-feature">
             <h2>WHY CHOOSE US?</h2>
             <p>For more details:</p>
@@ -94,10 +104,23 @@ function Hire() {
               </li>
             </ul>
           </div>
+          <div>
+            <img src="/images/HirePage/business.jpg" alt="" />
+          </div>
         </div>
         <div className="align-right">
+          <div>
+            <img src="/images/HirePage/idea.jpg" alt="" />
+          </div>
           <div className="hirepage-feature">
             <h2>HIGHLY MOTIVATED TEAM WITH INNOVATIVE IDEAS</h2>
+            <ul>
+              <li>Driven by passion and committed to achieving excellence in every project.</li>
+              <li>Constantly pushing the boundaries of creativity and innovation to deliver impactful solutions.</li>
+              <li>Collaborative spirit, fostering teamwork and open communication for effective problem-solving.</li>
+              <li>Adaptable and quick to embrace new technologies, ensuring cutting-edge solutions.</li>
+              <li>Focused on continuous learning to stay ahead in a rapidly evolving industry.</li>
+            </ul>
           </div>
         </div>
       </div>
