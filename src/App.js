@@ -5,6 +5,7 @@ import HireComponent from "./components/HirePage/Hire"
 import Home from "./components/HomePage/Home";
 import Leadership from "./components/HirePage/Leadership";
 import Particles from "./magicui/components/ui/particles";
+import ContactForm from "./components/ContactPage/Contact";
 import Testimonial from "./components/HirePage/Testimonial";
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
                     color={"#FFFFFF"}
                     refresh
                 />
+                <ContactForm/>
       <Testimonial />
     </div>
   );
