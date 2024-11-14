@@ -156,7 +156,7 @@
   justify-content: center;
   padding: 20px;
   border-radius: 15px;
-  border: 2px solid transparent;
+  border: 3px solid skyblue;
   background: linear-gradient(135deg, #e3f2fd, #bbdefb, #90caf9);
   background-size: 200% 200%;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -176,6 +176,8 @@
   box-shadow: 0 15px 30px rgba(0, 158, 173, 0.5);
   transform: translateY(-10px) scale(1.05) rotateX(3deg) rotateY(3deg);
   cursor: pointer;
+  opacity: 0.9;
+  border: 3px solid #bf0bdb;
 }
 
 .card img {
