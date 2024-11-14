@@ -120,7 +120,7 @@
 }
 
 .about-content {
-  font-size: 18px;
+  /* font-size: 20px; */
   line-height: 1.8;
   color: #d6e3e6;
   max-width: 48rem;
@@ -128,7 +128,7 @@
 }
 
 .about-content p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #d6e3e6;
   line-height: 1.8;
   letter-spacing: 0.03rem;

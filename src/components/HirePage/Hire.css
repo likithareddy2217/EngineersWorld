@@ -5,38 +5,43 @@
   color: #fff;
 }
 
-.hirepage-title{
+.hirepage-title {
   font-size: 60px;
   font-weight: 900;
   color: transparent;
-  background: linear-gradient(90deg , #d1a41d , #98750c , #d1a41d);
+  background: linear-gradient(90deg, #d1a41d, #98750c, #d1a41d);
   -webkit-background-clip: text;
-
 }
+
+.hirepage-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .hirepage-feature {
   width: 450px;
-  text-align: start;
-  height: 400px;
+  text-align: left;
   border: 2px solid white;
   border-radius: 10px;
   padding: 25px;
-  margin: 10px 40px;
-  
+  margin: 10px 0;
 }
-.hirepage-feature h2{
-  font-size: 20px;
+
+.hirepage-feature h2 {
+  font-size: 22px;
   font-weight: 900;
-  font-style:inherit;
-  letter-spacing: 2px;
   color: transparent;
-  background: linear-gradient(45deg , cyan , rgb(40, 185, 185) , cyan);
+  background: linear-gradient(45deg, cyan, rgb(40, 185, 185), cyan);
   -webkit-background-clip: text;
 }
-.hirepage-feature p{
-  font-size: 16px;
-  color: aliceblue;
-  padding-bottom: 10px;
+
+.hirepage-feature p {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.7;
 }
+
 ul {
   list-style-type: disc;
   padding-left: 20px;
@@ -46,22 +51,61 @@ ul {
 ul li {
   margin-bottom: 10px;
   font-size: 15px;
-  letter-spacing: 0.5px;
-  
-}
-
-.hirepage-feature ul {
-  padding-left: 25px;
 }
 
 ul li:hover {
   color: #feb47b;
 }
-.hirepage-container{
+
+.align-right {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
-.hirepage-container .hirepage-feature:nth-child(odd){
-  align-items: flex-end;
+
+.align-left {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+}
+
+.hirepage-feature {
+  opacity: 0; 
+  transition: opacity 0.5s ease;
+  width: 450px;
+  text-align: left;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px 0;
+}
+
+.hirepage-feature.slide-in-right {
+  animation: slideInRight 0.6s forwards;
+}
+
+.hirepage-feature.slide-in-left {
+  animation: slideInLeft 0.6s forwards;
 }
