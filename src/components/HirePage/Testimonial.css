@@ -26,8 +26,8 @@
   font-weight: 900; 
   margin-left: 10px;
   margin-bottom: 20px; 
-  color: #00c6ff; 
-  letter-spacing: -1px;
+  color: #fff; 
+  letter-spacing: 1px;
   line-height: 1.2; 
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); 
   transform: scale(1); 
@@ -68,4 +68,133 @@
   height: 50px;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .testimonial-section {
+    margin: 60px 50px;
+    padding: 30px;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-heading {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .testimonial-quote {
+    width: 80%;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .testimonial-quote h1 {
+    font-size: 40px;
+  }
+
+  .testimonial-quote p {
+    font-size: 18px;
+  }
+  
+  .testimonial-info h1 {
+    font-size: 14px;
+  }
+
+  .testimonial-info p {
+    font-size: 11px;
+  }
+
+  .testimonial-info img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-section {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+
+  .testimonial-heading {
+    font-size: 40px;
+  }
+
+  .testimonial-subheading {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .testimonial-quote {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+  .testimonial-quote h1 {
+    font-size: 35px;
+  }
+
+  .testimonial-quote p {
+    font-size: 16px;
+  }
+
+  .testimonial-info h1 {
+    font-size: 14px;
+  }
+
+  .testimonial-info p {
+    font-size: 10px;
+  }
+
+  .testimonial-info img {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-section {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .testimonial-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .testimonial-quote {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+  }
+
+  .testimonial-quote h1 {
+    font-size: 28px;
+  }
+
+  .testimonial-quote p {
+    font-size: 14px;
+  }
+
+  .testimonial-info h1 {
+    font-size: 12px;
+  }
+
+  .testimonial-info p {
+    font-size: 9px;
+  }
+
+  .testimonial-info img {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+  }
 }

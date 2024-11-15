@@ -1,7 +1,11 @@
-/* ContactForm.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+form {
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+}
 div {
     margin-bottom: 1rem;
-    color: white;
+    /* color: white; */
 }
 
 label {

@@ -6,13 +6,11 @@ const ContactForm = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
+        mobilenumber :'',
         message: '',
     });
-
-    // State to hold form submission status
     const [submitted, setSubmitted] = useState(false);
 
-    // Handle input changes
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -21,57 +19,75 @@ const ContactForm = () => {
         });
     };
 
-    // Handle form submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Example: Handle form data submission here
         console.log('Form Data Submitted:', formData);
         setSubmitted(true);
 
-        // Reset form fields
-        setFormData({ name: '', email: '', message: '' });
+        setFormData({ name: '', email: '',mobilenumber:'' , message: '' });
     };
 
     return (
-        <div className="contactpage">
-            <h2>Contact Us</h2>
+        <section className="contactpage">
+            <p className='contact-subheading'>GET IN TOUCH</p>
+            <h2 className='contact-heading'>Contact Us</h2>
             {submitted ? (
                 <p>Thank you for reaching out! We will get back to you soon.</p>
             ) : (
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label>Name:</label>
+                        <label htmlFor='name'>Your Name</label>
                         <input
                             type="text"
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
+                            className='name-input'
                             required
+                            placeholder="what's your good name?"
                         />
                     </div>
                     <div>
-                        <label>Email:</label>
+                        <label htmlFor='email'>Your Email</label>
                         <input
                             type="email"
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
+                            className='email-input'
                             required
+                            placeholder="what's your email?"
                         />
                     </div>
                     <div>
-                        <label>Message:</label>
+                        <label htmlFor='mobilenumber'>Your Number</label>
+                        <input 
+                            type="number"
+                            name='mobilenumber'
+                            value={formData.mobilenumber}
+                            onChange={handleChange}
+                            required
+                            className='number-input'
+                            maxLength={10}
+                            minLength={10}
+                            placeholder = "what's your Mobile Number?"
+                        />    
+                    </div>
+                    <div>
+                        <label>Your Message</label>
                         <textarea
                             name="message"
                             value={formData.message}
                             onChange={handleChange}
+                            className='message-input'
                             required
+                            placeholder="what would you like to say?"
                         />
                     </div>
                     <button type="submit">Submit</button>
                 </form>
             )}
-        </div>
+        </section>
     );
 };
 

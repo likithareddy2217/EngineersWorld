@@ -8,9 +8,7 @@
 .hirepage-title {
   font-size: 60px;
   font-weight: 900;
-  color: transparent;
-  background: linear-gradient(90deg, #d1a41d, #98750c, #d1a41d);
-  -webkit-background-clip: text;
+  color: #fff;
 }
 
 .hirepage-container {
@@ -123,4 +121,73 @@ ul li:hover {
 
 .hirepage-feature.slide-in-left {
   animation: slideInLeft 0.6s forwards;
+}
+
+@media (max-width: 1024px) {
+  .hirepage-title {
+    font-size: 50px;
+  }
+
+  .align-right img,
+  .align-left img {
+    margin: 0;
+    max-width: 80%;
+    margin-top: 40px;
+  }
+
+  .align-right {
+    margin-right: 5%;
+  }
+
+  .align-left {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hirepage {
+    padding: 40px 20px;
+  }
+
+  .hirepage-title {
+    font-size: 40px;
+  }
+
+  .hirepage-feature {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .align-right img,
+  .align-left img {
+    max-width: 100%;
+  }
+
+  .align-right,
+  .align-left {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hirepage-title {
+    font-size: 30px;
+  }
+
+  .align-right,
+  .align-left {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .align-right img,
+  .align-left img {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  .hirepage-feature {
+    padding: 15px;
+  }
 }

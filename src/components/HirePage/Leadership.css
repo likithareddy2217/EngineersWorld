@@ -71,3 +71,102 @@ section {
   font-size:1rem;
   color: #ddd;
 }
+@media (max-width: 1024px) {
+  section {
+    padding: 40px 60px;
+  }
+
+  .leadership-heading {
+    font-size: 50px;
+    margin: 40px 0;
+  }
+
+  .leadership-container {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .leadership-card {
+    width: 90%;
+    margin: 15px 0;
+    padding: 18px;
+  }
+
+  .leadership-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .leadership-card img {
+    height: 250px;
+    width: 100%;
+  }
+
+  .leadership-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 30px 20px;
+  }
+
+  .leadership-heading {
+    font-size: 40px;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .leadership-container {
+    grid-template-columns: 1fr;
+  }
+
+  .leadership-card {
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+
+  .leadership-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .leadership-card img {
+    height: 220px;
+    width: 100%;
+  }
+
+  .leadership-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 20px;
+  }
+
+  .leadership-heading {
+    font-size: 35px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .leadership-card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+  }
+
+  .leadership-card h2 {
+    font-size: 1rem;
+  }
+
+  .leadership-card img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .leadership-card p {
+    font-size: 0.85rem;
+  }
+}

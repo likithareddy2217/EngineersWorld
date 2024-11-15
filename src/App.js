@@ -24,8 +24,8 @@ function App() {
                     color={"#FFFFFF"}
                     refresh
                 />
-                <ContactForm/>
       <Testimonial />
+      <ContactForm/>
     </div>
   );
 }

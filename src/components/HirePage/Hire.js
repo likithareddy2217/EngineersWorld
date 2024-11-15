@@ -23,7 +23,7 @@ function Hire() {
       <div className="hirepage-container">
         <div className="align-right">
           <div>
-            <img src="/images/HirePage/mission.jpg" alt="" />
+            <img src="/images/hirepageimages/mission.jpg" alt="" />
           </div>
           <div className="hirepage-feature">
             <h2>MISSION</h2>
@@ -65,12 +65,12 @@ function Hire() {
             </ul>
           </div>
           <div>
-            <img src="/images/HirePage/vision.jpg" alt="" />
+            <img src="/images/hirepageimages/vision.jpg" alt="" />
           </div>
         </div>
         <div className="align-right">
           <div>
-            <img src="/images/HirePage/whychooseus.jpg" alt="" />
+            <img src="/images/hirepageimages/whychooseus.jpg" alt="" />
           </div>
           <div className="hirepage-feature">
             <h2>WHY CHOOSE US?</h2>
@@ -105,12 +105,12 @@ function Hire() {
             </ul>
           </div>
           <div>
-            <img src="/images/HirePage/business.jpg" alt="" />
+            <img src="/images/hirepageimages/business.jpg" alt="" />
           </div>
         </div>
         <div className="align-right">
           <div>
-            <img src="/images/HirePage/idea.jpg" alt="" />
+            <img src="/images/hirepageimages/idea.jpg" alt="" />
           </div>
           <div className="hirepage-feature">
             <h2>HIGHLY MOTIVATED TEAM WITH INNOVATIVE IDEAS</h2>

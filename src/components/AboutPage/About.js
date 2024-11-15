@@ -38,7 +38,7 @@ function About() {
         </div>
         <div className="card">
           <img src="/images/CyberSecurity.jpg" alt="" />
-          <h2>cyber security</h2>
+          <h2>Cyber Security</h2>
         </div>
       </div>
     </section>
