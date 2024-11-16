@@ -66,7 +66,7 @@ function Leadership(){
           <p>Muli Surya Narendra Reddy is a proficient Frontend Developer at Engineers World , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex aperiam deserunt distinctio delectus! Quod mollitia at ex blanditiis porro. Reiciendis quam dolorum excepturi non nesciunt illum, perspiciatis id consequatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa esse odit quidem ea neque dicta illo nam assumenda minima voluptatibus inventore repudiandae, et quasi asperiores provident. Tenetur, corrupti ea.</p>
         </div>
         <div className="leadership-card">
-          <img src="" alt="" />
+          <img src="/images/leadership/HR.jpg" alt="" />
           <h2>Frontend Developer</h2>
           <p>Satti Likitha Reddy is a proficient Frontend Developer at Engineers World , Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, provident deserunt, labore earum ex eum odio unde similique perferendis minus nam iure quod? Et, maiores debitis error ad aspernatur ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate placeat facilis beatae blanditiis illo cupiditate sequi, atque voluptas, labore, nam at. Sunt numquam perferendis quidem molestiae aliquid facere reprehenderit dolore?</p>
         </div>
