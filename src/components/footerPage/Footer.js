@@ -11,7 +11,7 @@ function Footer() {
         <p className="copyright">&copy; 2024 <strong>ENGINEERS WORLD</strong>. All Rights Reserved.</p>
         <p className="media-info">Follow us on our social media platforms for the latest updates:</p>
         <div className="social-media-icons">
-          <a href="https://www.linkedin.com/company/engineers-world-pvt-ltd/about/?viewAsMember=true" target="_blank" >
+          <a href="https://www.linkedin.com/company/engineer-s-world/" target="_blank" >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href="https://www.youtube.com/@engineersworld1787" target="_blank" >
