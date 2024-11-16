@@ -7,6 +7,7 @@ import Leadership from "./components/HirePage/Leadership";
 import Particles from "./magicui/components/ui/particles";
 import ContactForm from "./components/ContactPage/Contact";
 import Testimonial from "./components/HirePage/Testimonial";
+import Footer from "./components/footerPage/Footer";
 function App() {
   
   return (
@@ -26,6 +27,7 @@ function App() {
                 />
       <Testimonial />
       <ContactForm/>
+      <Footer />
     </div>
   );
 }
