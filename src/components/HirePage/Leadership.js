@@ -43,12 +43,15 @@ function Leadership(){
         <div className="leadership-card">
           <img src="/images/leadership/androidDeveloper.png" alt="" />
           <h2>Android Developer</h2>
-          <p>Juvvala Shiva Kesava Rao is a skilled Android Developer at Engineers World, bringing a wealth of expertise in mobile application development. His proficiency extends beyond Android development to include **React.js, Spring Boot, and SQL, making him a versatile and valuable member of our team.Shiva's comprehensive skill set allows him to create robust and efficient mobile applications while also contributing to web development and backend solutions. His dedication to staying updated with the latest technologies ensures that our projects are built using the best practices and cutting-edge tools.Shiva's innovative approach and technical acumen play a crucial role in delivering high-quality solutions that meet the diverse needs of our clients.</p>
+          <p>Juvvala Shiva Kesava Rao is a skilled Android Developer at Engineers World, bringing a wealth of expertise in mobile application development. His proficiency extends beyond Android development to include React.js, Spring Boot, and SQL, making him a versatile and valuable member of our team.Shiva's comprehensive skill set allows him to create robust and efficient mobile applications while also contributing to web development and backend solutions. His dedication to staying updated with the latest technologies ensures that our projects are built using the best practices and cutting-edge tools.Shiva's innovative approach and technical acumen play a crucial role in delivering high-quality solutions that meet the diverse needs of our clients.</p>
         </div>
         <div className="leadership-card">
           <img src="/images/leadership/marketing.jpg" alt="" />
-          <h2>Marketing Executive</h2>
-          <p>Yeshwanth is our dynamic Marketing Executive at Engineers World. With a strategic mindset and a passion for driving growth, Yeshwanth plays a pivotal role in promoting our brand and expanding our reach. His expertise in marketing strategies, campaign management, and customer engagement ensures that our message resonates with our target audience.Yeshwanth's innovative approach and keen understanding of market trends help us stay ahead in the competitive tech landscape. His dedication to excellence and ability to connect with clients and partners make him an invaluable asset to our team.</p>
+          <h2>Managing Director</h2>
+          <p>Yeshwanth is the Managing Director at Engineers World, leading the company with a blend of technical expertise and strategic vision. He has a strong background in frontend development, ensuring that web applications are not only functional but also user-friendly. Additionally, Yeshwanth is skilled in cybersecurity, safeguarding the company’s digital assets and protecting sensitive information.
+
+          Under Yeshwanth’s leadership, Engineers World has thrived, combining innovation in web development with robust security practices. His dual expertise in frontend development and cybersecurity makes him a pivotal figure in the company's ongoing success.
+          </p>
         </div>
         <div className="leadership-card">
           <img src="/images/leadership/softwaretester.png" alt="" />
@@ -58,17 +61,25 @@ function Leadership(){
         <div className="leadership-card">
           <img src="/images/leadership/cyberAnalyst.jpg" alt="" />
           <h2>Cyber Security Analyst</h2>
-          <p>Mendru Sai Sujith is a proficient Cyber Security Analyst at Engineers World , Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam id optio dolorem vel tempora soluta excepturi quos nisi maxime, voluptates earum cupiditate, repudiandae non aperiam! Ullam officiis impedit quos incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat iure neque itaque dolor voluptate officiis autem blanditiis. Temporibus deserunt nostrum assumenda odio dolores voluptatibus asperiores? Atque dolore omnis ducimus.</p>
+          <p>Sujith is a dedicated cybersecurity analyst at Engineers World, bringing a wealth of expertise to the company's security initiatives. With a strong foundation in Java programming, he seamlessly integrates security protocols within application development. Sujith is proficient in using digital forensic tools like Autopsy and FTK Imager, enabling him to effectively investigate and secure digital environments. Additionally, his skills in penetration testing ensure that systems are robustly protected against vulnerabilities.
+
+          Sujith's comprehensive skill set in cybersecurity and programming makes him a vital asset to Engineers World. His meticulous approach and proficiency in advanced forensic tools contribute significantly to safeguarding the company’s digital infrastructure.</p>
         </div>
         <div className="leadership-card">
-          <img src="" alt="" />
+          <img src="/images/leadership/developer.jpg" alt="" />
           <h2>Frontend Developer</h2>
-          <p>Muli Surya Narendra Reddy is a proficient Frontend Developer at Engineers World , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex aperiam deserunt distinctio delectus! Quod mollitia at ex blanditiis porro. Reiciendis quam dolorum excepturi non nesciunt illum, perspiciatis id consequatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa esse odit quidem ea neque dicta illo nam assumenda minima voluptatibus inventore repudiandae, et quasi asperiores provident. Tenetur, corrupti ea.</p>
+          <p>Surya Narendra is a skilled frontend developer at Engineers World. He specializes in creating user-friendly web applications using React.js, ensuring that users have a smooth and enjoyable experience. Surya is also proficient in Core Java, allowing him to work on both the frontend and backend of applications, and he is experienced with MongoDB for efficient data management.
+
+          At Engineers World, Surya's dedication to his craft helps the company innovate and improve its technology. His expertise in React.js, Core Java, and MongoDB makes him a valuable team member, contributing to the development of high-quality, reliable web applications.
+          </p>
         </div>
         <div className="leadership-card">
           <img src="/images/leadership/HR.jpg" alt="" />
           <h2>Frontend Developer</h2>
-          <p>Satti Likitha Reddy is a proficient Frontend Developer at Engineers World , Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, provident deserunt, labore earum ex eum odio unde similique perferendis minus nam iure quod? Et, maiores debitis error ad aspernatur ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate placeat facilis beatae blanditiis illo cupiditate sequi, atque voluptas, labore, nam at. Sunt numquam perferendis quidem molestiae aliquid facere reprehenderit dolore?</p>
+          <p>Likitha is a dedicated frontend developer at Engineers World, known for her expertise in crafting seamless and interactive user interfaces. She excels in frontend development, bringing ideas to life with her deep understanding of web technologies and user experience. Likitha is also skilled in Core Java, allowing her to effectively integrate frontend and backend functionalities.
+
+          Her passion for creating intuitive and efficient web applications makes her a valuable asset to the Engineers World team. Likitha’s ability to blend frontend development with Core Java ensures the delivery of high-quality, reliable web solutions.
+          </p>
         </div>
       </div>
     </section>
