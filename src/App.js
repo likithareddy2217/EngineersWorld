@@ -13,11 +13,18 @@ function App() {
   return (
     <div className="EngineersWorld">
      <NavigationComponent />
+     <div id="homepage">
      <Home />
-      {/* <p>hello </p> */}
+     </div>
+     <div id="aboutpage">
       <AboutComponent />
+      </div>
+     <div id="hirepage">
       <HireComponent />
+      </div>
+     <div id="leaderpage">
       <Leadership />
+      </div>
       <Particles
                     className="fixed inset-0 particles"
                     quantity={500}
@@ -25,9 +32,15 @@ function App() {
                     color={"#FFFFFF"}
                     refresh
                 />
+     <div id="testimonialpage">
       <Testimonial />
+      </div>
+     <div id="contactpage">
       <ContactForm/>
+      </div>
+     <div id="footer">
       <Footer />
+      </div>
     </div>
   );
 }

@@ -20,10 +20,10 @@ function Header() {
       </div>
       <nav className='nav'>
         <div className='links'>
-          <a href="#">Home</a>
-          <a href="/components/AboutPage/About.js">About Us</a>
-          <a href="#">Hire Us</a>
-          <a href='#'>Contact Us</a>
+          <a href="#homepage">Home</a>
+          <a href="#aboutpage">About Us</a>
+          <a href="#hirepage">Hire Us</a>
+          <a href='#contactpage'>Contact Us</a>
         </div>
       </nav>
     </header>
