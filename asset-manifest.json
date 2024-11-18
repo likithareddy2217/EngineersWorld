@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EngineersWorld/static/css/main.5d8b481b.css",
-    "main.js": "/EngineersWorld/static/js/main.8852125d.js",
+    "main.js": "/EngineersWorld/static/js/main.5b493f67.js",
     "static/js/453.4c959edc.chunk.js": "/EngineersWorld/static/js/453.4c959edc.chunk.js",
     "static/media/fa-solid-900.ttf": "/EngineersWorld/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/EngineersWorld/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/EngineersWorld/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EngineersWorld/index.html",
     "main.5d8b481b.css.map": "/EngineersWorld/static/css/main.5d8b481b.css.map",
-    "main.8852125d.js.map": "/EngineersWorld/static/js/main.8852125d.js.map",
+    "main.5b493f67.js.map": "/EngineersWorld/static/js/main.5b493f67.js.map",
     "453.4c959edc.chunk.js.map": "/EngineersWorld/static/js/453.4c959edc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8b481b.css",
-    "static/js/main.8852125d.js"
+    "static/js/main.5b493f67.js"
   ]
 }
