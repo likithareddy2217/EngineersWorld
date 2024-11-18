@@ -16,7 +16,7 @@ function Testimonial() {
               <p>CFO of Acme Co</p>
             </div>
             <div>
-              <img src="/images/Testimonials/saralee.jpg" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Testimonials/saralee.jpg`} alt="" />
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ function Testimonial() {
               <p>COO of DEF Corp</p>
             </div>
             <div>
-              <img src="/images/Testimonials/chrisbrown.jpg" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Testimonials/chrisbrown.jpg`} alt="" />
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Testimonial() {
               <p>CTO of 456 Enterprises</p>
             </div>
             <div>
-              <img src="/images/Testimonials/lisawang.jpg" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Testimonials/lisawang.jpg`} alt="" />
             </div>
           </div>
         </div>

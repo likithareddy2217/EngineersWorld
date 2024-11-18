@@ -20,9 +20,9 @@ export default function Home() {
                 />
             </div>
             <div className="socialLinks">
-            <img src="/images/linkedinimage.svg" alt="Italian Trulli"></img>
-            <img src="/images/instagramimage.svg" alt="Italian Trulli"></img>
-            <img src="/images/githubimage.svg" alt="Italian Trulli"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/linkedinimage.svg`} alt="Italian Trulli"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/instagramimage.svg`} alt="Italian Trulli"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/githubimage.svg`} alt="Italian Trulli"></img>
             </div>
             <Globe className={'globeStyle'} />
             {/* <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">

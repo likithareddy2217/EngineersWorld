@@ -16,28 +16,29 @@ function About() {
 
       <div className="card-container">
         <div className="card">
-          <img src="/images/webDevelopment.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/webDevelopment.jpg`} alt="" />
           <h2>Web</h2>
           <h2>Developer</h2>
         </div>
         <div className="card">
-          <img src="/images/reactNativeDevelopment.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/reactNativeDevelopment.jpg`} alt="" />
           <h2>React Native Developer</h2>
         </div>
         <div className="card">
-          <img src="/images/futureTech.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/futureTech.jpg`} alt="" />
+          
           <h2>Nurturing Future Tech Leaders</h2>
         </div>
         <div className="card">
-          <img src="/images/PhishShield.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/PhishShield.jpg`} alt="" />
           <h2>Phish Shield</h2>
         </div>
         <div className="card">
-          <img src="/images/AIML.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/AIML.jpg`} alt="" />
           <h2>AI ML</h2>
         </div>
         <div className="card">
-          <img src="/images/CyberSecurity.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/CyberSecurity.jpg`} alt="" />
           <h2>Cyber Security</h2>
         </div>
       </div>

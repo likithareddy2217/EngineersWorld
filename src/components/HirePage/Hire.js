@@ -23,7 +23,7 @@ function Hire() {
       <div className="hirepage-container">
         <div className="align-right">
           <div>
-            <img src="/images/hirepageimages/mission.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/hirepageimages/mission.jpg`} alt="" />
           </div>
           <div className="hirepage-feature">
             <h2>MISSION</h2>
@@ -65,12 +65,12 @@ function Hire() {
             </ul>
           </div>
           <div>
-            <img src="/images/hirepageimages/vision.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/hirepageimages/vision.jpg`} alt="" />
           </div>
         </div>
         <div className="align-right">
           <div>
-            <img src="/images/hirepageimages/whychooseus.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/hirepageimages/whychooseus.jpg`} alt="" />
           </div>
           <div className="hirepage-feature">
             <h2>WHY CHOOSE US?</h2>
@@ -105,12 +105,12 @@ function Hire() {
             </ul>
           </div>
           <div>
-            <img src="/images/hirepageimages/business.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/hirepageimages/business.jpg`} alt="" />
           </div>
         </div>
         <div className="align-right">
           <div>
-            <img src="/images/hirepageimages/idea.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/hirepageimages/idea.jpg`} alt="" />
           </div>
           <div className="hirepage-feature">
             <h2>HIGHLY MOTIVATED TEAM WITH INNOVATIVE IDEAS</h2>
