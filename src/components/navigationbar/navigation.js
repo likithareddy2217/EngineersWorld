@@ -18,6 +18,8 @@ function Header() {
         <img src={`${process.env.PUBLIC_URL}/images/EWlogo.jpg`} alt="Logo" height={40} width={40} />
         <h1>ENGINEER'S WORLD</h1>
       </div>
+      
+
       <nav className='nav'>
         <div className='links'>
           <a href="#homepage">Home</a>
@@ -25,7 +27,11 @@ function Header() {
           <a href="#hirepage">Hire Us</a>
           <a href='#contactpage'>Contact Us</a>
         </div>
+       
       </nav>
+
+
+
     </header>
   );
 }

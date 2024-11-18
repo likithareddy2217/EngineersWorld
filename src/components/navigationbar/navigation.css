@@ -8,24 +8,39 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Header styles */
 header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: transparent;
+  background: #d4cbcb;
+  /* Set the background color */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  transition: background 0.3s ease, padding 0.3s ease;
+  border-radius: 20px;
+  /* Rounded corners */
+  margin: 10px;
+  /* Space around the header */
+  transition: background 0.3s ease, padding 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow effect */
 }
 
+/* Style for when the header is scrolled */
 header.scrolled {
-  background: #090325;
-  box-shadow: 0 4px 10px rgba(3, 18, 81, 0.3);
+  background: #b0a9a9;
+  /* Darker background color on scroll */
+  transform: translateY(-5px);
+  /* Translate effect */
   padding: 10px 30px;
+  /* Adjusted padding */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* More pronounced shadow */
 }
 
+/* Logo and navigation styles */
 .logo-div {
   display: flex;
   align-items: center;
@@ -55,11 +70,16 @@ header.scrolled {
   position: relative;
   text-decoration: none;
   font-size: 18px;
-  color: #fff;
+  color: #000;
+  /* Adjusted text color for contrast */
   padding: 8px 12px;
   transition: color 0.3s ease;
-  overflow: hidden;
   opacity: 0.8;
+}
+
+.nav a:hover {
+  color: #feb47b;
+  font-weight: 700;
 }
 
 .nav a::before {
@@ -79,11 +99,7 @@ header.scrolled {
   transform: scaleX(1.1);
 }
 
-.nav a:hover {
-  color: #feb47b;
-  font-weight: 700;
-}
-
+/* Responsive styles for different screen sizes */
 @media (max-width: 768px) {
   header {
     flex-direction: column;

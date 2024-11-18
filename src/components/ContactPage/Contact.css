@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
-
 .contactpage {
   max-width: 600px;
   width: 100%;
-  margin: 30px;
+  margin: 30px auto;
   padding: 40px;
   background: linear-gradient(135deg, rgba(28, 58, 87, 0.9), rgba(43, 78, 111, 0.9));
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   text-align: center;
+  position: relative;
+  
 }
 
 .contact-subheading {
@@ -39,7 +38,8 @@ label {
   margin-bottom: 5px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 15px 20px;
   border: 1px solid #3a5a75;
@@ -50,7 +50,8 @@ input, textarea {
   transition: all 0.3s ease;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
   border-color: #80d0ff;
   box-shadow: 0 0 15px rgba(128, 208, 255, 0.7);
@@ -61,7 +62,8 @@ textarea {
   resize: none;
 }
 
-.next-btn, .submit-btn {
+.next-btn,
+.submit-btn {
   padding: 10px 20px;
   font-size: 1.2rem;
   font-weight: 700;
@@ -74,7 +76,8 @@ textarea {
   transition: all 0.4s ease;
 }
 
-.next-btn:hover, .submit-btn:hover {
+.next-btn:hover,
+.submit-btn:hover {
   background: linear-gradient(135deg, #1e8bd0, #80d0ff);
   transform: translateY(-5px);
 }
@@ -108,96 +111,96 @@ textarea {
 }
 
 @media (max-width: 1200px) {
-    .contactpage {
-        max-width: 550px;
-        padding: 35px;
-    }
+  .contactpage {
+    max-width: 550px;
+    padding: 35px;
+  }
 
-    .contact-heading {
-        font-size: 2.2rem;
-    }
+  .contact-heading {
+    font-size: 2.2rem;
+  }
 
-    input, textarea {
-        font-size: 0.95rem;
-    }
+  input,
+  textarea {
+    font-size: 0.95rem;
+  }
 
-    .submit-btn {
-        font-size: 1.1rem;
-        padding: 12px 25px;
-    }
+  .submit-btn {
+    font-size: 1.1rem;
+    padding: 12px 25px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .contactpage {
-        max-width: 500px;
-        padding: 30px;
-    }
+  .contactpage {
+    max-width: 500px;
+    padding: 30px;
+  }
 
-    .contact-heading {
-        font-size: 2rem;
-    }
+  .contact-heading {
+    font-size: 2rem;
+  }
 
-    label {
-        font-size: 1rem;
-    }
+  label {
+    font-size: 1rem;
+  }
 
-    input, textarea {
-        font-size: 0.9rem;
-    }
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
 
-    .submit-btn {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
+  .submit-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
 }
 
 @media (max-width: 768px) {
-    body {
-        padding: 20px;
-    }
+  .contactpage {
+    max-width: 90%;
+    padding: 25px;
+  }
 
-    .contactpage {
-        max-width: 90%;
-        padding: 25px;
-    }
+  .contact-heading {
+    font-size: 1.8rem;
+  }
 
-    .contact-heading {
-        font-size: 1.8rem;
-    }
+  label {
+    font-size: 0.9rem;
+  }
 
-    label {
-        font-size: 0.9rem;
-    }
+  input,
+  textarea {
+    font-size: 0.85rem;
+  }
 
-    input, textarea {
-        font-size: 0.85rem;
-    }
-
-    .submit-btn {
-        font-size: 0.9rem;
-        padding: 8px 15px;
-    }
+  .submit-btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
 }
 
 @media (max-width: 480px) {
-    .contact-heading {
-        font-size: 1.5rem;
-    }
+  .contact-heading {
+    font-size: 1.5rem;
+  }
 
-    .contactpage {
-        padding: 20px;
-    }
+  .contactpage {
+    padding: 20px;
+  }
 
-    label {
-        font-size: 0.85rem;
-    }
+  label {
+    font-size: 0.85rem;
+  }
 
-    input, textarea {
-        font-size: 0.8rem;
-    }
+  input,
+  textarea {
+    font-size: 0.8rem;
+  }
 
-    .submit-btn {
-        font-size: 0.8rem;
-        padding: 6px 10px;
-    }
+  .submit-btn {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
 }
