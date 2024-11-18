@@ -30,7 +30,7 @@ function About() {
           <h2>Nurturing Future Tech Leaders</h2>
         </div>
         <div className="card">
-          <img src={`${process.env.PUBLIC_URL}/images/PhishShield.jpg`} alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/phishShield.jpg`} alt="" />
           <h2>Phish Shield</h2>
         </div>
         <div className="card">

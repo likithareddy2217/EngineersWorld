@@ -25,6 +25,9 @@ section {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .leadership-card.visible {
@@ -169,4 +172,12 @@ section {
   .leadership-card p {
     font-size: 0.85rem;
   }
+}
+
+@media only screen and (max-width: 750px) {
+  .leadership-card img{
+    width: 200px;
+    height: 200px;
+  }
+
 }
