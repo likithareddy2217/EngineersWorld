@@ -11,13 +11,15 @@ export default function Home() {
 
     return (
         <div className='Homepage'>
-            <div className='intro'>
+            <div className='introgroup'>
                 <LetterPullup className={"headtext"} words={"Hi , We Are Engineers World"} delay={0.05} />
                 <GradualSpacing
                     className="tagline"
                     text="BELIEVE IN TECHNOLOGY TO CREATE NEW AND FUTURISTIC SOLUTIONS"
 
                 />
+                <p className="tagline_mobile">BELIEVE IN TECHNOLOGY TO CREATE NEW AND FUTURISTIC SOLUTIONS</p>
+
             </div>
             <div className="socialLinks">
             <img src={`${process.env.PUBLIC_URL}/images/linkedinimage.svg`} alt="Italian Trulli"></img>
