@@ -28,7 +28,7 @@ function Leadership(){
         <div className="leadership-card">
           <img src={`${process.env.PUBLIC_URL}/images/leadership/CEO.jpg`} alt="" />
           <h2>Chief Executive Officer (CEO)</h2>
-          <p>AKSHAY KUMAR At the helm of Engineers World is our esteemed founder, Akshay Kumar, a visionary with profound expertise in the realms of cybersecurity, cloud computing, and web development. Akshay’s extensive knowledge and hands-on experience have been the cornerstone of our company’s success. His leadership is driven by a passion for innovation and a commitment to excellence, which has propelled Engineers World to the forefront of the tech industry. Under Akshay’s guidance, we continue to push the boundaries of what’s possible, creating a legacy of empowerment and advancement in the digital world.</p>
+          <p>AKSHAY KUMAR At the helm of Engineers World is our esteemed founder, Akshay Kumar, a visionary with profound expertise in the realms of cybersecurity, cloud computing, and web development. Akshay's extensive knowledge and hands-on experience have been the cornerstone of our company's success. His leadership is driven by a passion for innovation and a commitment to excellence, which has propelled Engineers World to the forefront of the tech industry. Under Akshay's guidance, we continue to push the boundaries of what's possible, creating a legacy of empowerment and advancement in the digital world.</p>
         </div>
         <div className="leadership-card">
           <img src={`${process.env.PUBLIC_URL}/images/leadership/cofounder.png`} alt="" />
@@ -48,22 +48,22 @@ function Leadership(){
         <div className="leadership-card">
           <img src={`${process.env.PUBLIC_URL}/images/leadership/marketing.jpg`} alt="" />
           <h2>Managing Director</h2>
-          <p>Yeshwanth is the Managing Director at Engineers World, leading the company with a blend of technical expertise and strategic vision. He has a strong background in frontend development, ensuring that web applications are not only functional but also user-friendly. Additionally, Yeshwanth is skilled in cybersecurity, safeguarding the company’s digital assets and protecting sensitive information.
+          <p>Yeshwanth is the Managing Director at Engineers World, leading the company with a blend of technical expertise and strategic vision. He has a strong background in frontend development, ensuring that web applications are not only functional but also user-friendly. Additionally, Yeshwanth is skilled in cybersecurity, safeguarding the company's digital assets and protecting sensitive information.
 
-          Under Yeshwanth’s leadership, Engineers World has thrived, combining innovation in web development with robust security practices. His dual expertise in frontend development and cybersecurity makes him a pivotal figure in the company's ongoing success.
+          Under Yeshwanth's leadership, Engineers World has thrived, combining innovation in web development with robust security practices. His dual expertise in frontend development and cybersecurity makes him a pivotal figure in the company's ongoing success.
           </p>
         </div>
         <div className="leadership-card">
           <img src={`${process.env.PUBLIC_URL}/images/leadership/softwaretester.png`} alt="" />
           <h2>Software Tester</h2>
-          <p>Karthik Boosa is a proficient Software Tester at Engineers World, bringing a meticulous approach to ensuring the quality and reliability of our software products. In addition to his expertise in software testing, Karthik is skilled in *Java* and *Android development*, making him a versatile member of our team.Karthik's comprehensive understanding of both development and testing processes allows him to identify and resolve issues efficiently, ensuring that our applications meet the highest standards of performance and user satisfaction. His dedication to excellence and continuous improvement is instrumental in delivering robust and reliable solutions to our clients.</p>
+          <p>Karthik Boosa is a proficient Software Tester at Engineers World, bringing a meticulous approach to ensuring the quality and reliability of our software products. In addition to his expertise in software testing, Karthik is skilled in Java and Android development, making him a versatile member of our team.Karthik's comprehensive understanding of both development and testing processes allows him to identify and resolve issues efficiently, ensuring that our applications meet the highest standards of performance and user satisfaction. His dedication to excellence and continuous improvement is instrumental in delivering robust and reliable solutions to our clients.</p>
         </div>
         <div className="leadership-card">
           <img src={`${process.env.PUBLIC_URL}/images/leadership/cyberAnalyst.jpg`} alt="" />
           <h2>Cyber Security Analyst</h2>
           <p>Sujith is a dedicated cybersecurity analyst at Engineers World, bringing a wealth of expertise to the company's security initiatives. With a strong foundation in Java programming, he seamlessly integrates security protocols within application development. Sujith is proficient in using digital forensic tools like Autopsy and FTK Imager, enabling him to effectively investigate and secure digital environments. Additionally, his skills in penetration testing ensure that systems are robustly protected against vulnerabilities.
 
-          Sujith's comprehensive skill set in cybersecurity and programming makes him a vital asset to Engineers World. His meticulous approach and proficiency in advanced forensic tools contribute significantly to safeguarding the company’s digital infrastructure.</p>
+          Sujith's comprehensive skill set in cybersecurity and programming makes him a vital asset to Engineers World. His meticulous approach and proficiency in advanced forensic tools contribute significantly to safeguarding the company's digital infrastructure.</p>
         </div>
         <div className="leadership-card">
           <img src={`${process.env.PUBLIC_URL}/images/leadership/developer.jpg`} alt="" />
@@ -78,7 +78,7 @@ function Leadership(){
           <h2>Frontend Developer</h2>
           <p>Likitha is a dedicated frontend developer at Engineers World, known for her expertise in crafting seamless and interactive user interfaces. She excels in frontend development, bringing ideas to life with her deep understanding of web technologies and user experience. Likitha is also skilled in Core Java, allowing her to effectively integrate frontend and backend functionalities.
 
-          Her passion for creating intuitive and efficient web applications makes her a valuable asset to the Engineers World team. Likitha’s ability to blend frontend development with Core Java ensures the delivery of high-quality, reliable web solutions.
+          Her passion for creating intuitive and efficient web applications makes her a valuable asset to the Engineers World team. Likitha's ability to blend frontend development with Core Java ensures the delivery of high-quality, reliable web solutions.
           </p>
         </div>
       </div>

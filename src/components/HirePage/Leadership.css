@@ -170,14 +170,14 @@ section {
   }
 
   .leadership-card p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
 }
 
 @media only screen and (max-width: 750px) {
   .leadership-card img{
-    width: 200px;
-    height: 200px;
+    width: 340px;
+    height: 340px;
   }
 
 }
