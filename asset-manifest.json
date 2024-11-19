@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EngineersWorld/static/css/main.75beab8d.css",
+    "main.css": "/EngineersWorld/static/css/main.1dbb6d21.css",
     "main.js": "/EngineersWorld/static/js/main.2e65af9a.js",
     "static/js/453.4c959edc.chunk.js": "/EngineersWorld/static/js/453.4c959edc.chunk.js",
     "static/media/fa-solid-900.ttf": "/EngineersWorld/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/EngineersWorld/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/EngineersWorld/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EngineersWorld/index.html",
-    "main.75beab8d.css.map": "/EngineersWorld/static/css/main.75beab8d.css.map",
+    "main.1dbb6d21.css.map": "/EngineersWorld/static/css/main.1dbb6d21.css.map",
     "main.2e65af9a.js.map": "/EngineersWorld/static/js/main.2e65af9a.js.map",
     "453.4c959edc.chunk.js.map": "/EngineersWorld/static/js/453.4c959edc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75beab8d.css",
+    "static/css/main.1dbb6d21.css",
     "static/js/main.2e65af9a.js"
   ]
 }
