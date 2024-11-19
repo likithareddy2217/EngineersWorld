@@ -18,7 +18,7 @@ export default function Home() {
                     text="BELIEVE IN TECHNOLOGY TO CREATE NEW AND FUTURISTIC SOLUTIONS"
 
                 />
-                <p className="tagline_mobile">BELIEVE IN TECHNOLOGY TO CREATE NEW AND FUTURISTIC SOLUTION</p>
+                <p className="tagline_mobile">BELIEVE IN TECHNOLOGY TO CREATE NEW AND FUTURISTIC SOLUTIONS</p>
 
             </div>
             <div className="socialLinks">
