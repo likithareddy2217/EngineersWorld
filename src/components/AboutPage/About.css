@@ -8,116 +8,95 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .section {
-  padding: 60px;
-  display: inline-block;
+  padding: 60px 20px;
+  display: block;
+  text-align: center;
 }
 
 .about-context {
-  font-size: 20px;
-  letter-spacing: 0.1rem;
+  font-size: 18px;
+  letter-spacing: 0.05rem;
   font-weight: 100;
   color: #d6e3e6;
 }
 
 .about-heading {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   color: #fff;
-  padding: 20px 0 0 0;
-  line-height: 1.3;
-  position: relative;
-  border-bottom: 5px solid transparent;
+  padding: 20px 0;
+  line-height: 1.2;
+  text-align: center;
   background-size: 200% 200%;
 }
 
 .about-content {
-  line-height: 1.8;
+  line-height: 1.6;
   color: #d6e3e6;
-  max-width: 48rem;
-  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 .about-content p {
-  font-size: 1.2rem;
-  color: #d6e3e6;
-  line-height: 1.8;
-  letter-spacing: 0.03rem;
-  margin-bottom: 30px;
-  text-align: start;
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 .card-container {
   width: 100%;
-  max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
   padding: 20px;
   margin: auto;
-  justify-items: center;
 }
 
 .card {
-  width: 100%;
-  max-width: 250px;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   border-radius: 15px;
-  border: 3px solid skyblue;
+  border: 2px solid var(--primary-color);
   background: linear-gradient(135deg, #e3f2fd, #bbdefb, #90caf9);
   background-size: 200% 200%;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease, background 5s ease;
   text-align: center;
-  overflow: hidden;
-  position: relative;
-  will-change: transform, box-shadow;
-  transform-style: preserve-3d;
-  perspective: 1000px;
 }
 
 .card:hover {
-  background: linear-gradient(135deg, #64b5f6, #42a5f5, #2196f3);
-  background-size: 300% 300%;
-  animation: gradientShift 5s ease infinite;
-  box-shadow: 0 15px 30px rgba(0, 158, 173, 0.5);
-  transform: translateY(-10px) scale(1.05) rotateX(3deg) rotateY(3deg);
-  cursor: pointer;
-  opacity: 0.9;
-  border: 3px solid #bf0bdb;
+  background: var(--gradient-bg);
+  box-shadow: 0 8px 20px rgba(0, 158, 173, 0.3);
+  transform: translateY(-5px);
 }
 
 .card img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 10px;
-  background-color: #ffffff;
-  transition: box-shadow 0.3s ease;
-}
-
-.card:hover img {
-  transform: scale(1.2);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  margin-bottom: 15px;
 }
 
 .card h2 {
-  font-size: 22px;
-  font-weight: 900;
-  background: linear-gradient(135deg, #0d5c95, #05698b, #0a6d88);
+  font-size: 20px;
+  font-weight: 800;
+  background: var(--heading-gradient);
   -webkit-background-clip: text;
   color: transparent;
-  padding: 0;
+  margin: 10px 0;
 }
 
 @keyframes gradientShift {
@@ -133,27 +112,33 @@
     background-position: 0% 50%;
   }
 }
+
+/* Responsive Design */
 @media (max-width: 1024px) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media (max-width: 768px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
+
   .section {
-    padding: 40px 60px;
+    padding: 30px;
   }
-  .card {
-    width: 200px;
-    height: 250px;
+
+  .about-heading {
+    font-size: 40px;
   }
-  .card h2 {
-    font-size: 1.1rem;
+
+  .about-content p {
+    font-size: 1rem;
   }
 }
+
 @media (max-width: 480px) {
   .card-container {
     grid-template-columns: 1fr;
@@ -169,8 +154,12 @@
   }
 
   .card {
-    width: 250px;
-    height: 300px;
+    padding: 15px;
+  }
+
+  .card img {
+    width: 60px;
+    height: 60px;
   }
 
   .card h2 {
